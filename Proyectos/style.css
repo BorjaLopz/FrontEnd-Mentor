@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10rem;
+    /* width: 30%; */
+}
+
+section
+{
+    align-content: center;
+    background-color: white;
+    width: 34rem;
+    height: 48rem;
+    border-radius: 3rem;
+
+    
+}
+
+section *:not(p)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    border-radius: 3rem;
+    width: 30rem;
+    margin: 2rem auto;
+    padding: 1rem;
+
+}
+
+#PrimerParrafo
+{
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#SegundoParrafo
+{
+    text-align: center;
+    color: gray;
+    font-size: 1.4rem;
+}
